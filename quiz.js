@@ -84,8 +84,8 @@ function displayReview() {
                          Correct answer: ${questions[index].answer} <br/>
                          ${
                            log.correct
-                             ? '<span style="color: green;">Correct</span>'
-                             : '<span style="color: red;">Incorrect</span>'
+                             ? '<span style="color: #1f511f;">Correct</span>'
+                             : '<span style="color: #940000;">Incorrect</span>'
                          }`;
     review.appendChild(div);
   });
