@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NLP Entity Recognition</title>
+    <script src="https://unpkg.com/compromise"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>What is Natural Language Processing?</h1>
+    <div class="hero">
+      <img src="assets/hero.jpeg" />
+      <div></div>
+    </div>
+    <div class="authors">
+      <div class="author">
+        <div class="avatar">
+          <img src="assets/luis.png" />
+        </div>
+        <h5>Luis Cerqueira</h5>
+      </div>
+      <div class="author">
+        <div class="avatar">
+          <img src="assets/nour.jpeg" />
+        </div>
+        <h5>Nour Elaifia</h5>
+      </div>
+    </div>
+    <section>
+      <h2>Introduction</h2>
+    </section>
+    <section>
+      <h2>Demystifying NLP</h2>
+    </section>
+    <section>
+      <h2>NLP’s Application in Implementation Science</h2>
+    </section>
+    <section>
+      <h2>The Power of NLP in Research Synthesis</h2>
+      <div class="demo">
+        <h3>
+          See how NLP can quickly identify and categorize different types of
+          information. In this demo, it identifies any names, places or
+          organizations you write in a text.
+        </h3>
+        <span>Some examples for you to try:</span>
+        <ul>
+          <li>Luis studies at Minerva University</li>
+          <li>Nour lives in San Francisco at Market Street</li>
+        </ul>
+        <textarea
+          id="inputText"
+          rows="4"
+          cols="50"
+          placeholder="Type your text here..."
+        ></textarea
+        ><br />
+        <button onclick="identifyEntities()">Analyze Text</button>
+        <div id="output"></div>
+      </div>
+    </section>
+    <section>
+      <h2>The Path Forward with NLP</h2>
+    </section>
+    <section>
+      <h2>Conclusion</h2>
+    </section>
+    <script src="entity-recognition.js"></script>
+  </body>
+</html>
