@@ -1,18 +1,56 @@
 const questions = [
   {
-    question: "What is the capital of France?",
-    options: ["Paris", "London", "Madrid", "Berlin"],
-    answer: "Paris",
+    question:
+      "What is the primary role of Natural Language Processing in implementation science?",
+    options: [
+      "To enhance graphical presentations in publications.",
+      "To automate the parsing and analysis of scientific literature.",
+      "To increase the printing speed of scientific journals.",
+      "To improve peer-review processes.",
+    ],
+    answer: "To automate the parsing and analysis of scientific literature.",
   },
   {
-    question: "What is the capital of Germany?",
-    options: ["Hamburg", "Munich", "Berlin", "Frankfurt"],
-    answer: "Berlin",
+    question: `Which NLP technique is used for grouping text into thematic clusters, as mentioned in the "5335 days of Implementation Science" study?`,
+    options: [
+      "Text embeddings",
+      "Latent Dirichlet Allocation (LDA)",
+      "Sentiment Analysis",
+      "Neural Networks",
+    ],
+    answer: "Latent Dirichlet Allocation (LDA)",
   },
   {
-    question: "What is the capital of Italy?",
-    options: ["Milan", "Venice", "Rome", "Naples"],
-    answer: "Rome",
+    question:
+      "What does the use of text embeddings in NLP help to achieve in research synthesis?",
+    options: [
+      "Decreases the accuracy of text analysis.",
+      "Simplifies the peer-review process.",
+      "Highlights semantic similarities in texts.",
+      "Reduces the need for data visualization.",
+    ],
+    answer: "Highlights semantic similarities in texts.",
+  },
+  {
+    question:
+      "According to the blog, what has been a significant impact of advanced NLP techniques on the analysis of literature?",
+    options: [
+      "Reduced reliance on digital libraries.",
+      "Decreased efficiency in literature analysis.",
+      "Identification of trends and insights previously inaccessible.",
+      "Lowering the quality of systematic reviews.",
+    ],
+    answer: "Identification of trends and insights previously inaccessible.",
+  },
+  {
+    question: `What is highlighted as a growing focus within the implementation science field based on the findings from the "5335 days of Implementation Science" study?`,
+    options: [
+      "Decreasing the number of publications.",
+      "Focusing solely on linguistic research.",
+      "Increasing importance of systematic reviews.",
+      "Shifting away from using NLP techniques.",
+    ],
+    answer: "Increasing importance of systematic reviews.",
   },
 ];
 

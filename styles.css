@@ -18,6 +18,11 @@ body {
   position: relative;
 }
 
+p {
+  line-height: 1.6rem;
+  font-weight: 300;
+}
+
 .hero {
   width: 100%;
   margin-bottom: 4rem;
